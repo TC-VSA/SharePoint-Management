@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SharePoint Management Platform - Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="app-container light-theme">
+    <!-- Login Screen (Modal) -->
+    <div id="loginModal" class="login-overlay">
+        <div class="login-container">
+            <div class="login-card">
+                <div class="login-header">
+                    <div class="logo-area">
+                        <i class="fas fa-sharealt logo-icon"></i>
+                        <h1>SharePoint<br>Management</h1>
+                    </div>
+                </div>
+
+                <form class="login-form" id="loginForm">
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            placeholder="your.email@company.com" 
+                            required
+                            class="form-input"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="password-field">
+                            <input 
+                                type="password" 
+                                id="password" 
+                                placeholder="Enter your password" 
+                                required
+                                class="form-input"
+                            >
+                            <button type="button" class="toggle-password" aria-label="Toggle password visibility">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="rememberMe" class="form-checkbox">
+                        <label for="rememberMe">Remember me</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg login-btn">
+                        Sign In
+                    </button>
+
+                    <div class="login-divider">or</div>
+
+                    <button type="button" class="btn btn-secondary btn-lg">
+                        <i class="fab fa-microsoft"></i> Sign in with Microsoft
+                    </button>
+
+                    <div class="login-footer">
+                        <a href="#" class="link">Can't access your account?</a>
+                    </div>
+                </form>
+
+                <div class="login-info">
+                    <p>Demo Credentials:</p>
+                    <p><strong>Email:</strong> demo@company.com</p>
+                    <p><strong>Password:</strong> Demo1234!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="appContainer" class="app-wrapper" style="display: none;">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-sharealt"></i>
+                    <span class="logo-text">SharePoint</span>
+                </div>
+                <button class="sidebar-toggle-mobile" id="closeSidebarBtn" aria-label="Close sidebar">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <h3 class="nav-section-title">Main</h3>
+                    <ul class="nav-list">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-home"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-list"></i>
+                                <span>Sites</span>
+                                <span class="badge badge-info">12</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-folder"></i>
+                                <span>Documents</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-users"></i>
+                                <span>Users & Groups</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-section">
+                    <h3 class="nav-section-title">Management</h3>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-cogs"></i>
+                                <span>Governance</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-lock"></i>
+                                <span>Security & Compliance</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-bar-chart"></i>
+                                <span>Analytics</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-bell"></i>
+                                <span>Alerts</span>
+                                <span class="badge badge-warning">3</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav-section">
+                    <h3 class="nav-section-title">Settings</h3>
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-sliders-h"></i>
+                                <span>Preferences</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-question-circle"></i>
+                                <span>Help & Support</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Top Navigation Bar -->
+            <header class="top-navbar">
+                <div class="navbar-left">
+                    <button class="sidebar-toggle" id="openSidebarBtn" aria-label="Toggle sidebar">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="search-bar">
+                        <i class="fas fa-search"></i>
+                        <input 
+                            type="text" 
+                            placeholder="Search sites, documents, users..."
+                            class="search-input"
+                            aria-label="Search"
+                        >
+                    </div>
+                </div>
+
+                <div class="navbar-right">
+                    <button class="navbar-icon-btn" aria-label="Notifications">
+                        <i class="fas fa-bell"></i>
+                        <span class="notification-badge">5</span>
+                    </button>
+                    <button class="navbar-icon-btn" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="user-menu">
+                        <button class="user-profile-btn">
+                            <img src="https://via.placeholder.com/32" alt="User avatar" class="avatar-small">
+                            <span>John Doe</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-user"></i> My Profile
+                            </a>
+                            <a href="#" class="dropdown-item">
+                                <i class="fas fa-cog"></i> Settings
+                            </a>
+                            <hr class="dropdown-divider">
+                            <a href="#" class="dropdown-item text-error">
+                                <i class="fas fa-sign-out-alt"></i> Sign Out
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page Content -->
+            <div class="page-content">
+                <!-- Dashboard Header -->
+                <section class="dashboard-header">
+                    <div class="header-content">
+                        <h1 class="page-title">Dashboard</h1>
+                        <p class="page-subtitle">Welcome back! Here's your SharePoint overview.</p>
+                    </div>
+                    <div class="header-actions">
+                        <button class="btn btn-secondary">
+                            <i class="fas fa-calendar"></i> Date Range
+                        </button>
+                        <button class="btn btn-secondary">
+                            <i class="fas fa-filter"></i> Filters
+                        </button>
+                        <button class="btn btn-primary">
+                            <i class="fas fa-plus"></i> New Site
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Statistic Cards Section -->
+                <section class="stats-grid">
+                    <article class="stat-card">
+                        <div class="stat-icon success">
+                            <i class="fas fa-cloud-check-alt"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Active Sites</h3>
+                            <p class="stat-value">126</p>
+                            <p class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i> 12% from last month
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="stat-card">
+                        <div class="stat-icon info">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Total Documents</h3>
+                            <p class="stat-value">8,542</p>
+                            <p class="stat-change positive">
+                                <i class="fas fa-arrow-up"></i> 5% from last month
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="stat-card">
+                        <div class="stat-icon warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Compliance Issues</h3>
+                            <p class="stat-value">8</p>
+                            <p class="stat-change negative">
+                                <i class="fas fa-arrow-down"></i> 2 from last month
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="stat-card">
+                        <div class="stat-icon error">
+                            <i class="fas fa-user-lock"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 class="stat-title">Inactive Users</h3>
+                            <p class="stat-value">23</p>
+                            <p class="stat-change negative">
+                                <i class="fas fa-arrow-up"></i> 3 from last month
+                            </p>
+                        </div>
+                    </article>
+                </section>
+
+                <!-- Main Dashboard Grid -->
+                <div class="dashboard-grid">
+                    <!-- Left Column -->
+                    <div class="dashboard-column">
+                        <!-- Activity Timeline -->
+                        <section class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">Recent Activity</h2>
+                                <button class="btn btn-tertiary btn-sm">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="timeline">
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker success">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h4>New site created</h4>
+                                            <p>Marketing Team Site</p>
+                                            <time>Today at 2:45 PM</time>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker info">
+                                            <i class="fas fa-user-plus"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h4>User added to group</h4>
+                                            <p>Sarah Johnson joined Engineering Team</p>
+                                            <time>Today at 1:30 PM</time>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker warning">
+                                            <i class="fas fa-exclamation"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h4>Compliance alert</h4>
+                                            <p>External sharing detected in Confidential site</p>
+                                            <time>Today at 11:20 AM</time>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker info">
+                                            <i class="fas fa-sync"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h4>Backup completed</h4>
+                                            <p>Daily backup for HR repository</p>
+                                            <time>Yesterday at 8:00 PM</time>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item">
+                                        <div class="timeline-marker success">
+                                            <i class="fas fa-lock"></i>
+                                        </div>
+                                        <div class="timeline-content">
+                                            <h4>Policy updated</h4>
+                                            <p>External sharing policy revised</p>
+                                            <time>Yesterday at 3:15 PM</time>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <a href="#" class="link">View all activity →</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="dashboard-column">
+                        <!-- Quick Actions -->
+                        <section class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">Quick Actions</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="quick-actions-grid">
+                                    <button class="quick-action-btn">
+                                        <div class="action-icon">
+                                            <i class="fas fa-plus"></i>
+                                        </div>
+                                        <span>Create Site</span>
+                                    </button>
+                                    <button class="quick-action-btn">
+                                        <div class="action-icon">
+                                            <i class="fas fa-users"></i>
+                                        </div>
+                                        <span>Manage Users</span>
+                                    </button>
+                                    <button class="quick-action-btn">
+                                        <div class="action-icon">
+                                            <i class="fas fa-shield-alt"></i>
+                                        </div>
+                                        <span>Configure Security</span>
+                                    </button>
+                                    <button class="quick-action-btn">
+                                        <div class="action-icon">
+                                            <i class="fas fa-file-upload"></i>
+                                        </div>
+                                        <span>Upload Document</span>
+                                    </button>
+                                    <button class="quick-action-btn">
+                                        <div class="action-icon">
+                                            <i class="fas fa-file-download"></i>
+                                        </div>
+                                        <span>Export Report</span>
+                                    </button>
+                                    <button class="quick-action-btn">
+                                        <div class="action-icon">
+                                            <i class="fas fa-cogs"></i>
+                                        </div>
+                                        <span>View Settings</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Alerts & Notifications -->
+                        <section class="card">
+                            <div class="card-header">
+                                <h2 class="card-title">System Alerts</h2>
+                            </div>
+                            <div class="card-body">
+                                <div class="alerts-container">
+                                    <div class="alert alert-error">
+                                        <div class="alert-icon">
+                                            <i class="fas fa-exclamation-circle"></i>
+                                        </div>
+                                        <div class="alert-content">
+                                            <h4>High Risk Detected</h4>
+                                            <p>Unusual access pattern detected in HR site</p>
+                                        </div>
+                                        <button class="alert-close" aria-label="Close alert">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="alert alert-warning">
+                                        <div class="alert-icon">
+                                            <i class="fas fa-exclamation-triangle"></i>
+                                        </div>
+                                        <div class="alert-content">
+                                            <h4>Quota Warning</h4>
+                                            <p>Engineering site is at 85% storage capacity</p>
+                                        </div>
+                                        <button class="alert-close" aria-label="Close alert">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+
+                                    <div class="alert alert-info">
+                                        <div class="alert-icon">
+                                            <i class="fas fa-info-circle"></i>
+                                        </div>
+                                        <div class="alert-content">
+                                            <h4>Maintenance Scheduled</h4>
+                                            <p>System maintenance tomorrow 2 AM - 4 AM EST</p>
+                                        </div>
+                                        <button class="alert-close" aria-label="Close alert">
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer class="app-footer">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h5>Product</h5>
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Company</h5>
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Legal</h5>
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Compliance</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Support</h5>
+                        <ul>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 SharePoint Management Platform. All rights reserved.</p>
+                    <div class="footer-meta">
+                        <span>v1.0.0</span>
+                        <span>•</span>
+                        <span id="buildDate">Built on Jan 24, 2025</span>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+        <!-- Mobile Sidebar Overlay -->
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../js/app.js"></script>
+</body>
+</html>
