@@ -1,0 +1,676 @@
+/* 
+ * SharePoint Management Platform - Site Management Page CSS v1.0
+ * Extends base style.css with site management specific styles
+ * Last Updated: January 24, 2025
+ */
+
+/* ========================================
+   1. FILTERS & SEARCH SECTION
+   ======================================== */
+
+.sites-filters {
+  padding: 24px;
+  background-color: var(--color-bg-secondary);
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border: 1px solid var(--color-border);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 12px 16px;
+  gap: 12px;
+  transition: var(--transition-normal);
+}
+
+.search-box:focus-within {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.1);
+}
+
+.search-box i {
+  color: var(--color-text-secondary);
+  font-size: 14px;
+}
+
+.filter-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--color-text-primary);
+  font-size: 14px;
+  outline: none;
+}
+
+.filter-input::placeholder {
+  color: var(--color-text-tertiary);
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  background-color: var(--color-bg-primary);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: var(--transition-normal);
+  font-size: 13px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.filter-btn:hover {
+  background-color: var(--color-bg-tertiary);
+  border-color: var(--color-primary);
+}
+
+.filter-btn.active {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
+/* ========================================
+   2. SITES TABLE SECTION
+   ======================================== */
+
+.sites-section {
+  background-color: var(--color-bg-secondary);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sites-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.sites-table thead {
+  background-color: var(--color-bg-tertiary);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.sites-table th {
+  padding: 16px;
+  text-align: left;
+  color: var(--color-text-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+}
+
+.sites-table td {
+  padding: 16px;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-text-primary);
+}
+
+.sites-table tbody tr {
+  transition: background-color var(--transition-fast);
+}
+
+.sites-table tbody tr:hover {
+  background-color: var(--color-bg-tertiary);
+}
+
+/* Table Cell Content */
+.site-name {
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.site-owner {
+  color: var(--color-text-secondary);
+}
+
+.site-created {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+}
+
+.site-members {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.member-count {
+  background-color: var(--color-bg-primary);
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Status Badge */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.status-active {
+  background-color: rgba(0, 184, 148, 0.1);
+  color: #00b894;
+  border: 1px solid rgba(0, 184, 148, 0.3);
+}
+
+.status-inactive {
+  background-color: rgba(255, 159, 64, 0.1);
+  color: #ff9f40;
+  border: 1px solid rgba(255, 159, 64, 0.3);
+}
+
+.status-archived {
+  background-color: rgba(144, 144, 144, 0.1);
+  color: #909090;
+  border: 1px solid rgba(144, 144, 144, 0.3);
+}
+
+/* Action Buttons */
+.actions-cell {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.action-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-primary);
+  border-radius: 4px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.action-btn:hover {
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-primary);
+}
+
+.action-btn.delete:hover {
+  background-color: rgba(255, 68, 68, 0.1);
+  color: #ff4444;
+}
+
+/* ========================================
+   3. PAGINATION
+   ======================================== */
+
+.sites-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  background-color: var(--color-bg-secondary);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.pagination-info {
+  color: var(--color-text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 12px;
+}
+
+/* ========================================
+   4. MODALS
+   ======================================== */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: var(--z-modal);
+  animation: fadeIn var(--transition-normal);
+}
+
+.modal.open {
+  display: flex;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative;
+  background-color: var(--color-bg-secondary);
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideUp var(--transition-normal) var(--ease-enter);
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-small {
+  max-width: 400px;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.modal-header h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 0;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: var(--transition-fast);
+}
+
+.modal-close:hover {
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-text-primary);
+}
+
+.modal-body {
+  padding: 24px;
+  color: var(--color-text-primary);
+}
+
+.modal-body p {
+  margin: 0 0 12px 0;
+  line-height: 1.5;
+}
+
+.modal-body p:last-child {
+  margin-bottom: 0;
+}
+
+.modal-form {
+  padding: 24px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--color-text-primary);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-size: 14px;
+  font-family: inherit;
+  transition: var(--transition-normal);
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(0, 120, 212, 0.1);
+}
+
+.form-input::placeholder {
+  color: var(--color-text-tertiary);
+}
+
+textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Modal Actions */
+.form-actions,
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+  margin-top: 16px;
+}
+
+.modal-actions {
+  padding: 24px;
+  border-top: 1px solid var(--color-border);
+  margin: 0;
+}
+
+/* ========================================
+   5. ALERTS
+   ======================================== */
+
+.alert {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  max-width: 400px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--color-bg-secondary);
+  border: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  animation: slideInRight var(--transition-normal) var(--ease-enter);
+  z-index: var(--z-tooltip);
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.alert-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--color-text-primary);
+}
+
+.alert-success {
+  border-color: #00b894;
+  background-color: rgba(0, 184, 148, 0.1);
+}
+
+.alert-success .alert-content {
+  color: #00b894;
+}
+
+.alert-success i {
+  font-size: 18px;
+}
+
+.alert-close {
+  background: none;
+  border: none;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-fast);
+}
+
+.alert-close:hover {
+  color: var(--color-text-primary);
+}
+
+/* ========================================
+   6. RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 768px) {
+  .filter-group {
+    gap: 12px;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+  }
+
+  .filter-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .sites-table {
+    font-size: 12px;
+  }
+
+  .sites-table th,
+  .sites-table td {
+    padding: 12px 8px;
+  }
+
+  .actions-cell {
+    gap: 4px;
+  }
+
+  .action-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .sites-pagination {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .pagination-controls {
+    width: 100%;
+  }
+
+  .pagination-controls .btn {
+    flex: 1;
+  }
+
+  .modal-content {
+    width: 95%;
+    max-width: 100%;
+  }
+
+  .modal-header {
+    padding: 16px;
+  }
+
+  .modal-form,
+  .modal-actions {
+    padding: 16px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .alert {
+    right: 12px;
+    left: 12px;
+    bottom: 12px;
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .table-wrapper {
+    font-size: 11px;
+  }
+
+  .sites-table th,
+  .sites-table td {
+    padding: 8px 4px;
+  }
+
+  .status-badge {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+
+  .member-count {
+    padding: 2px 8px;
+    font-size: 10px;
+  }
+
+  .actions-cell {
+    gap: 2px;
+  }
+
+  .action-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 10px;
+  }
+}
+
+/* ========================================
+   7. DARK THEME ADJUSTMENTS
+   ======================================== */
+
+:root.dark-theme .sites-filters {
+  background-color: var(--color-bg-secondary);
+}
+
+:root.dark-theme .filter-btn {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+:root.dark-theme .filter-btn:hover {
+  background-color: var(--color-bg-tertiary);
+}
+
+:root.dark-theme .sites-table tbody tr:hover {
+  background-color: var(--color-bg-tertiary);
+}
+
+:root.dark-theme .modal-content {
+  background-color: var(--color-bg-secondary);
+}
+
+:root.dark-theme .form-input {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+/* ========================================
+   8. ACCESSIBILITY
+   ======================================== */
+
+.filter-btn:focus,
+.action-btn:focus,
+.form-input:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal-content,
+  .alert {
+    animation: none;
+  }
+
+  .sites-table tbody tr,
+  .filter-btn,
+  .form-input {
+    transition: none;
+  }
+}
