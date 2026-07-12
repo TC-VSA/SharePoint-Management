@@ -1,0 +1,373 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\js\\site-management.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\js\\site-management.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-DAY2-COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\SESSION-DAY2-COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\html\\sites.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\html\\sites.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\css\\site-management.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\css\\site-management.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\.copilot\\plans\\plan-create-site-management-page.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\VERIFICATION-COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\VERIFICATION-COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\OPEN-NOW.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\OPEN-NOW.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-DAY1-VERIFICATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\SESSION-DAY1-VERIFICATION.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-COMPLETE-DAY1.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\SESSION-COMPLETE-DAY1.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\TESTING-GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\TESTING-GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:prototype\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\DOCUMENTATION-COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\DOCUMENTATION-COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\AI-Prompts.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\AI-Prompts.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\AI-Rules.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\AI-Rules.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\Step-Tracker.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\Step-Tracker.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\Context.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\AI\\Context.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\UI-UX\\Design-System.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docs\\UI-UX\\Design-System.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\TCMPL\\.copilot\\plans\\plan-build-design-system-dashboard-v1.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SESSION-DAY2-COMPLETE.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-DAY2-COMPLETE.md",
+              "RelativeDocumentMoniker": "docs\\AI\\SESSION-DAY2-COMPLETE.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-DAY2-COMPLETE.md",
+              "RelativeToolTip": "docs\\AI\\SESSION-DAY2-COMPLETE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:58:25.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site-management.js",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\js\\site-management.js",
+              "RelativeDocumentMoniker": "prototype\\js\\site-management.js",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\js\\site-management.js",
+              "RelativeToolTip": "prototype\\js\\site-management.js",
+              "ViewState": "AgIAAG0CAAAAAAAAAAAAAHwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-12T09:56:10.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site-management.css",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\css\\site-management.css",
+              "RelativeDocumentMoniker": "prototype\\css\\site-management.css",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\css\\site-management.css",
+              "RelativeToolTip": "prototype\\css\\site-management.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-12T09:55:39.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sites.html",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\html\\sites.html",
+              "RelativeDocumentMoniker": "prototype\\html\\sites.html",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\html\\sites.html",
+              "RelativeToolTip": "prototype\\html\\sites.html",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAAAIQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-12T09:54:53.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "plan-create-site-management-page.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\.copilot\\plans\\plan-create-site-management-page.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.copilot\\plans\\plan-create-site-management-page.md",
+              "ToolTip": "C:\\Users\\TCMPL\\.copilot\\plans\\plan-create-site-management-page.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\..\\.copilot\\plans\\plan-create-site-management-page.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:54:09.586Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\html\\index.html",
+              "RelativeDocumentMoniker": "prototype\\html\\index.html",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\html\\index.html",
+              "RelativeToolTip": "prototype\\html\\index.html",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAmwEIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-12T08:40:02.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VERIFICATION-COMPLETE.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\VERIFICATION-COMPLETE.md",
+              "RelativeDocumentMoniker": "prototype\\VERIFICATION-COMPLETE.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\VERIFICATION-COMPLETE.md",
+              "RelativeToolTip": "prototype\\VERIFICATION-COMPLETE.md",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:45:09.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OPEN-NOW.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\OPEN-NOW.md",
+              "RelativeDocumentMoniker": "prototype\\OPEN-NOW.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\OPEN-NOW.md",
+              "RelativeToolTip": "prototype\\OPEN-NOW.md",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:44:47.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\css\\style.css",
+              "RelativeDocumentMoniker": "prototype\\css\\style.css",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\css\\style.css",
+              "RelativeToolTip": "prototype\\css\\style.css",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAmwK8BAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-12T09:35:12.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SESSION-DAY1-VERIFICATION.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-DAY1-VERIFICATION.md",
+              "RelativeDocumentMoniker": "docs\\AI\\SESSION-DAY1-VERIFICATION.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-DAY1-VERIFICATION.md",
+              "RelativeToolTip": "docs\\AI\\SESSION-DAY1-VERIFICATION.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:50:48.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SESSION-COMPLETE-DAY1.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-COMPLETE-DAY1.md",
+              "RelativeDocumentMoniker": "docs\\AI\\SESSION-COMPLETE-DAY1.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\SESSION-COMPLETE-DAY1.md",
+              "RelativeToolTip": "docs\\AI\\SESSION-COMPLETE-DAY1.md",
+              "ViewState": "AgIAAN8BAAAAAAAAAAAAAOUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:37:53.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TESTING-GUIDE.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\TESTING-GUIDE.md",
+              "RelativeDocumentMoniker": "prototype\\TESTING-GUIDE.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\TESTING-GUIDE.md",
+              "RelativeToolTip": "prototype\\TESTING-GUIDE.md",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:36:22.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\js\\app.js",
+              "RelativeDocumentMoniker": "prototype\\js\\app.js",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\prototype\\js\\app.js",
+              "RelativeToolTip": "prototype\\js\\app.js",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAANAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-12T09:35:42.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DOCUMENTATION-COMPLETE.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\DOCUMENTATION-COMPLETE.md",
+              "RelativeDocumentMoniker": "docs\\AI\\DOCUMENTATION-COMPLETE.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\DOCUMENTATION-COMPLETE.md",
+              "RelativeToolTip": "docs\\AI\\DOCUMENTATION-COMPLETE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:32:39.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\README.md",
+              "RelativeDocumentMoniker": "docs\\AI\\README.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\README.md",
+              "RelativeToolTip": "docs\\AI\\README.md",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAANgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:31:44.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AI-Prompts.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\AI-Prompts.md",
+              "RelativeDocumentMoniker": "docs\\AI\\AI-Prompts.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\AI-Prompts.md",
+              "RelativeToolTip": "docs\\AI\\AI-Prompts.md",
+              "ViewState": "AgIAAK8CAAAAAAAAAAAAAK8CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:30:41.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AI-Rules.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\AI-Rules.md",
+              "RelativeDocumentMoniker": "docs\\AI\\AI-Rules.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\AI-Rules.md",
+              "RelativeToolTip": "docs\\AI\\AI-Rules.md",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:29:54.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Step-Tracker.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\Step-Tracker.md",
+              "RelativeDocumentMoniker": "docs\\AI\\Step-Tracker.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\Step-Tracker.md",
+              "RelativeToolTip": "docs\\AI\\Step-Tracker.md",
+              "ViewState": "AgIAAF4CAAAAAAAAAAAAAJMBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:29:16.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Context.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\Context.md",
+              "RelativeDocumentMoniker": "docs\\AI\\Context.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\AI\\Context.md",
+              "RelativeToolTip": "docs\\AI\\Context.md",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAANgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T09:28:20.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Design-System.md",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\UI-UX\\Design-System.md",
+              "RelativeDocumentMoniker": "docs\\UI-UX\\Design-System.md",
+              "ToolTip": "C:\\Users\\TCMPL\\TC_WorkSpace\\source\\repos\\SharePoint-Management\\docs\\UI-UX\\Design-System.md",
+              "RelativeToolTip": "docs\\UI-UX\\Design-System.md",
+              "ViewState": "AgIAABUBAAAAAAAAAAAAAD4BAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T08:39:02.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "plan-build-design-system-dashboard-v1.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\TCMPL\\.copilot\\plans\\plan-build-design-system-dashboard-v1.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.copilot\\plans\\plan-build-design-system-dashboard-v1.md",
+              "ToolTip": "C:\\Users\\TCMPL\\.copilot\\plans\\plan-build-design-system-dashboard-v1.md [Preview]",
+              "RelativeToolTip": "..\\..\\..\\..\\.copilot\\plans\\plan-build-design-system-dashboard-v1.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-07-12T08:38:36.445Z",
+              "EditorCaption": " [Preview]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
